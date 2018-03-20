@@ -1,0 +1,6 @@
+you received a message
+This is what they said :
+{{message}}
+Reply here:
+{{email}}
+<link src="www.programmedtocode.wordpress.com">

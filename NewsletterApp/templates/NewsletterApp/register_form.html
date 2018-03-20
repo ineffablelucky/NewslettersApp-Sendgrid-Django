@@ -1,0 +1,25 @@
+<title>Register</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous">
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 ">
+      <h1 class="mt-5"></h1>
+      <p class="lead text-center">Register Here!!</p>
+      <br></br>
+
+        <form  class="text-align" method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button class = "btn btn-primary btn-danger" type="submit" name="registerbutton">Register</button>
+        </form>
+
+    
+
+
+    </div>
+  </div>
+</div>
