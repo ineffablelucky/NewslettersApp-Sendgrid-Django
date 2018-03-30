@@ -1,5 +1,6 @@
 # NewslettersApp-Sendgrid-Django
-Uses Sendgrid email and tracking services
+Uses Sendgrid email and tracking services. 
+This app can be used to send weekly emails to the subscribers of the newsletters and track if the subscribers open their mails and other related activties.
 
 Registration page
 _________________
