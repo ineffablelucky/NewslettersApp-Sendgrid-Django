@@ -74,7 +74,7 @@ def send_email(request):
         final_send_content = get_template('Newsletter_content.txt').render(context)
         """
 
-        if user_email.username == 'owner':
+        if user_email.username == 'owner':  # to ignore superuser 'owner' 
             continue
         else:
             to_email = user_email.email
